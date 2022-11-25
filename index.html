@@ -10,25 +10,21 @@
 
 <body>
     <main>
-        <header>
-            <h1>Jogo da Velha</h1>
-            <p>Tutorial</p>
-        </header>
-        <div class="board x" id="board">
-            <div class="cell x"></div>
-            <div class="cell o"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
+        <h1>Jogo da Velha</h1>
+        <hr />
+        <div class="game">
+            <button data-i="1"></button>
+            <button data-i="2"></button>
+            <button data-i="3"></button>
+            <button data-i="4"></button>
+            <button data-i="5"></button>
+            <button data-i="6"></button>
+            <button data-i="7"></button>
+            <button data-i="8"></button>
+            <button data-i="9"></button>
         </div>
+        <h2 class="currentPlayer"></h2>
     </main>
-    <div class="game-end-message" id="gameEndMessage">
-        <div data-game-end-message></div>
-        <button id="restartButton">Reiniciar</button>
-    </div>
+    <script src="/js/javascript.js"></script>
 </body>
 </html>
