@@ -36,4 +36,7 @@ function newMove(e) {
     setTimeout(() => {
         check();
     }, [100]);
+
+    player = player === "X" ? "O" : "X";
+    currentPlayer.innerHTML = 'JOGADOR DA VEZ: ${player}';
 }

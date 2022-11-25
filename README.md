@@ -9,6 +9,7 @@ HTML, CSS e JavaScript.
 [x] Adicionar layout do tabuleiro;
 [x] Adicionar 'X' e 'O' para cada jogador;
 [ ] Adicionar Botão para cada Jogador;
+[x] Adicionar Jogador da vez;
 
 
 ## Extras:
